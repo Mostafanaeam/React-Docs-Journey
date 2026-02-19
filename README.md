@@ -1,0 +1,145 @@
+# 🚀 Journey Learn React | رحلة تعلم ريأكت
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react logo" width="80" height="80" />
+</div>
+
+> [!NOTE]
+> **Source**: The sole and primary source and reference for this project is the official documentation: [react.dev](https://react.dev).
+> <br>
+> **المصدر**: المصدر والمرجع الأساسي والوحيد لهذا المشروع هو التوثيق الرسمي: [react.dev](https://react.dev).
+
+---
+
+## 🇪🇬 القسم العربي (Arabic Section)
+
+### 🎯 الهدف من المشروع
+
+هذا المستودع يوثق رحلتي التعليمية لإتقان مكتبة **React** بالاعتماد الكامل على التوثيق الرسمي. يحتوي المشروع على مجلدات يومية، كل مجلد يمثل يوماً من التعلم وتطبيق مفاهيم محددة.
+
+### 📅 سجل الرحلة (Progress Log)
+
+#### ✅ [اليوم 1: البداية والأساسيات](./day1)
+
+- إعداد بيئة العمل باستخدام **Vite**.
+- بناء تطبيق متعدد اللغات (عربي/إنجليزي).
+- دعم الاتجاه من اليمين لليسار (RTL).
+- إدارة الحالة (State Management) للتبديل بين اللغات.
+
+#### ✅ [اليوم 2: المكونات و JSX](./day2)
+
+- فهم المكونات (Components) وكيفية إنشائها.
+- الفرق بين التصدير الافتراضي (Default Export) والمسمى (Named Export).
+- كتابة JSX بشكل صحيح وتجنب الأخطاء الشائعة.
+
+#### 🚧 [اليوم 3: استيراد وتصدير المكونات (جاري العمل...)](./day3)
+
+- التركيز الحالي: تعميق الفهم حول استيراد وتصدير المكونات وتنظيم الملفات.
+
+---
+
+## 🇬🇧 English Section
+
+### 🎯 Project Goal
+
+This repository documents my journey to master **React**, relying entirely on the official documentation. The project contains daily folders, each representing a day of learning and applying specific concepts.
+
+### 📅 Journey Log
+
+#### ✅ [Day 1: Genesis & Basics](./day1)
+
+- Setting up the environment using **Vite**.
+- Building a multi-language app (Standard/Right-to-Left).
+- Implementing dynamic RTL support.
+- State Management for language switching.
+
+#### ✅ [Day 2: Components & JSX](./day2)
+
+- Understanding Components and how to build them.
+- Default vs. Named Exports.
+- Writing valid JSX and avoiding common pitfalls.
+
+#### 🚧 [Day 3: Importing & Exporting Components (In Progress...)](./day3)
+
+- Current Focus: Deep dive into component imports/exports and file organization.
+
+---
+
+## 🚀 How to Run | كيفية التشغيل
+
+للتشغيل، انتقل إلى مجلد اليوم المحدد ثم اتبع التعليمات:
+To run, navigate to the specific day's folder and follow the instructions:
+
+1. **Clone the repository | استنساخ المستودع**
+
+   ```bash
+   git clone [repository-url]
+   ```
+
+2. **Navigate to the day's folder | الانتقال لمجلد اليوم**
+
+   ```bash
+   cd day1  # or day2, day3...
+   ```
+
+3. **Install dependencies | تثبيت المكتبات**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server | تشغيل السيرفر**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 👨‍💻 About Me | عني
+
+<div align="center">
+  
+  **Mostafa Abd El-naeam**
+  <br>
+  *Front-End Engineer (Angular & React)*
+
+  <br>
+
+  <p align="center">
+    Mostafa Abd El-naeam is a Front-End Engineer specializing in Angular and modern JavaScript ecosystems, with a strong foundation in the MEAN stack and scalable web application architecture.
+    <br><br>
+    He builds production-ready interfaces with a focus on clean architecture, performance optimization, and maintainable code. His technical scope includes HTML, CSS, JavaScript, Angular, RESTful APIs, and an expanding focus on backend system design.
+    <br><br>
+    Currently, Mostafa is deepening his expertise in the React ecosystem, focusing on modern patterns, component architecture, and scalable front-end systems to broaden his impact across diverse technical stacks.
+  </p>
+
+  <br>
+
+  <!-- Social Links -->
+  <a href="https://github.com/Mostafanaeam">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/mostafanaeam/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://mostafa-naeam.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="mailto:mnaeam10@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://wa.me/201114938410">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  </a>
+
+</div>
+
+---
+
+<div align="center">
+  Done with ❤️ during the React Learning Journey
+</div>

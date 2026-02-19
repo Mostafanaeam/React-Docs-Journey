@@ -1,0 +1,41 @@
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.92);
+  background-color: #121212; /* Deep dark background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Variables */
+  --primary-color: #61dafb;
+  --secondary-color: #21a1f1;
+  --bg-card: #1e1e1e;
+  --bg-card-hover: #252525;
+  --text-main: #ffffff;
+  --text-muted: #a0a0a0;
+  --border-color: #333;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: flex-start; /* Align into flow, not center */
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  background-image: radial-gradient(
+    circle at 10% 20%,
+    rgb(33, 33, 33) 0%,
+    rgb(18, 18, 18) 90.2%
+  );
+}
+
+#root {
+  width: 100%;
+}
