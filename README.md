@@ -65,6 +65,65 @@ This repository documents my journey to master **React**, relying entirely on th
 
 ---
 
+## 🗺️ Learning Roadmap & Progress | خريطة التعلم والتقدم
+
+### 🟢 Beginner Level (The Foundation)
+
+**Progress: 31%** `███░░░░░░░`
+
+#### 1. Describing the UI
+
+- [x] Your First Component
+- [x] Importing and Exporting Components
+- [x] Writing Markup with JSX
+- [x] JavaScript in JSX with Curly Braces
+- [ ] Passing Props to a Component
+- [x] Conditional Rendering
+- [ ] Rendering Lists
+- [ ] Keeping Components Pure
+- [ ] Your UI as a Tree
+
+#### 2. Adding Interactivity
+
+- [ ] Responding to Events
+- [ ] State: A Component's Memory
+- [ ] Render and Commit
+- [ ] State as a Snapshot
+- [ ] Queueing a Series of State Updates
+- [ ] Updating Objects in State
+- [ ] Updating Arrays in State
+
+### 🟡 Intermediate Level (Managing State)
+
+**Progress: 0%** `░░░░░░░░░░`
+
+#### 3. Managing State
+
+- [ ] Reacting to Input with State
+- [ ] Choosing the State Structure
+- [ ] Sharing State Between Components
+- [ ] Preserving and Resetting State
+- [ ] Extracting State Logic into a Reducer
+- [ ] Passing Data Deeply with Context
+- [ ] Scaling Up with Reducer and Context
+
+### 🔴 Advanced Level (Escape Hatches)
+
+**Progress: 0%** `░░░░░░░░░░`
+
+#### 4. Escape Hatches
+
+- [ ] Referencing Values with Refs
+- [ ] Manipulating the DOM with Refs
+- [ ] Synchronizing with Effects
+- [ ] You Might Not Need an Effect
+- [ ] Lifecycle of Reactive Effects
+- [ ] Separating Events from Effects
+- [ ] Removing Effect Dependencies
+- [ ] Reusing Logic with Custom Hooks
+
+---
+
 ## 🚀 How to Run | كيفية التشغيل
 
 للتشغيل، انتقل إلى مجلد اليوم المحدد ثم اتبع التعليمات:
