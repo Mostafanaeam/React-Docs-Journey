@@ -49,6 +49,13 @@
 - فهم لماذا يُفضل معظم مطوري React استخدام JSX.
 - تطبيق البنية الصحيحة لـ JSX وقواعدها الأساسية.
 
+#### ✅ [اليوم 5: استخدام JavaScript في JSX](./day5)
+
+- فهم كيفية استخدام الأقواس المتعرجة `{}` لفتح نافذة إلى JavaScript داخل JSX.
+- تمرير السلاسل النصية والمتغيرات ديناميكياً إلى خصائص العناصر.
+- استخدام "الأقواس المتعرجة المزدوجة" لتمرير الكائنات (Objects) مثل التنسيقات (Inline Styles).
+- حل 3 تحديات رسمية: إصلاح أخطاء الصيغة، استخراج البيانات في كائنات، واستخدام التعبيرات الديناميكية.
+
 ---
 
 ## 🇬🇧 English Section
@@ -87,6 +94,13 @@ This repository documents my journey to master **React**, relying entirely on th
 - Deep dive into JSX — why it's the preferred way to write React UI.
 - Learning strict JSX rules (single root element, closing tags, camelCase attributes).
 - Challenge: Converting legacy HTML snippets into valid React JSX syntax.
+
+#### ✅ [Day 5: JavaScript in JSX with Curly Braces](./day5)
+
+- Mastering the use of curly braces `{}` to embed JavaScript expressions in JSX.
+- Dynamically passing strings and variables to element attributes.
+- Using "Double Curlies" to pass JavaScript objects (common for inline styles).
+- Solved 3 official challenges: fixing syntax errors, data extraction into objects, and applying dynamic expressions.
 
 ---
 
