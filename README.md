@@ -84,9 +84,9 @@ This repository documents my journey to master **React**, relying entirely on th
 
 #### ✅ [Day 4: Writing Markup with JSX](./day4)
 
-- Introduced JSX as a syntax extension for JavaScript that allows HTML-like markup.
-- Understood why most React developers prefer JSX.
-- Applied correct JSX structure and its fundamental rules.
+- Deep dive into JSX — why it's the preferred way to write React UI.
+- Learning strict JSX rules (single root element, closing tags, camelCase attributes).
+- Challenge: Converting legacy HTML snippets into valid React JSX syntax.
 
 ---
 
@@ -203,19 +203,19 @@ To run, navigate to the specific day's folder and follow the instructions:
   <a href="https://github.com/Mostafanaeam">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  &nbsp;
+&nbsp;
   <a href="https://linkedin.com/in/mostafanaeam/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  &nbsp;
+&nbsp;
   <a href="https://mostafa-naeam.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
-  &nbsp;
+&nbsp;
   <a href="mailto:mnaeam10@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  &nbsp;
+&nbsp;
   <a href="https://wa.me/201114938410">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
