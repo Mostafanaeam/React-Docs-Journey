@@ -26,15 +26,28 @@
 - دعم الاتجاه من اليمين لليسار (RTL).
 - إدارة الحالة (State Management) للتبديل بين اللغات.
 
-#### ✅ [اليوم 2: المكونات و JSX](./day2)
+#### ✅ [اليوم 2: المكونات الأولى (Your First Component)](./day2)
 
-- فهم المكونات (Components) وكيفية إنشائها.
-- الفرق بين التصدير الافتراضي (Default Export) والمسمى (Named Export).
-- كتابة JSX بشكل صحيح وتجنب الأخطاء الشائعة.
+- فهم بنية المكوّن (Component) في React وكيفية إنشائه.
+- حل 4 تحديات رسمية من التوثيق:
+  - **التحدي 1:** إصلاح `default export` الناقص.
+  - **التحدي 2:** إصلاح `return statement` خاطئة.
+  - **التحدي 3:** تطبيق قاعدة تسمية المكوّنات بـ `PascalCase`.
+  - **التحدي 4:** كتابة مكوّن كامل من الصفر.
+- التمييز بين الدوال العادية ومكوّنات React.
 
-#### 🚧 [اليوم 3: استيراد وتصدير المكونات (جاري العمل...)](./day3)
+#### ✅ [اليوم 3: استيراد وتصدير المكونات](./day3)
 
-- التركيز الحالي: تعميق الفهم حول استيراد وتصدير المكونات وتنظيم الملفات.
+- تقسيم المكوّنات إلى ملفات منفصلة لتحسين قابلية الصيانة.
+- تطبيق `default export` على مكوّنَي `Profile` و `Gallery`.
+- استيراد المكوّنات وتداخلها (نستخدم `Profile` داخل `Gallery`).
+- حل التحدي الرسمي: نقل `Profile` من `Gallery.jsx` إلى ملفه المستقل `Profile.jsx`.
+
+#### ✅ [اليوم 4: كتابة Markup بـ JSX](./day4)
+
+- التعرف على JSX كامتداد لـ JavaScript يتيح كتابة HTML داخل الكود.
+- فهم لماذا يُفضل معظم مطوري React استخدام JSX.
+- تطبيق البنية الصحيحة لـ JSX وقواعدها الأساسية.
 
 ---
 
@@ -49,19 +62,31 @@ This repository documents my journey to master **React**, relying entirely on th
 #### ✅ [Day 1: Genesis & Basics](./day1)
 
 - Setting up the environment using **Vite**.
-- Building a multi-language app (Standard/Right-to-Left).
-- Implementing dynamic RTL support.
-- State Management for language switching.
+- Building a multi-language app (English/Arabic) with dynamic RTL support.
+- State Management for language switching using `useState`.
 
-#### ✅ [Day 2: Components & JSX](./day2)
+#### ✅ [Day 2: Your First Component](./day2)
 
-- Understanding Components and how to build them.
-- Default vs. Named Exports.
-- Writing valid JSX and avoiding common pitfalls.
+- Understanding the anatomy of a React Component.
+- Solved 4 official documentation challenges:
+  - **Challenge 1:** Fix a missing `default export`.
+  - **Challenge 2:** Correct a broken `return statement`.
+  - **Challenge 3:** Enforce `PascalCase` component naming.
+  - **Challenge 4:** Build a component from scratch.
+- Distinguishing regular functions from React components.
 
-#### 🚧 [Day 3: Importing & Exporting Components (In Progress...)](./day3)
+#### ✅ [Day 3: Importing & Exporting Components](./day3)
 
-- Current Focus: Deep dive into component imports/exports and file organization.
+- Splitting components into separate files for better maintainability.
+- Applied `default export` to `Profile` and `Gallery` components.
+- Nested components: rendered `Profile` inside `Gallery`.
+- Solved the official challenge: moved `Profile` out of `Gallery.jsx` into its own standalone `Profile.jsx`.
+
+#### ✅ [Day 4: Writing Markup with JSX](./day4)
+
+- Introduced JSX as a syntax extension for JavaScript that allows HTML-like markup.
+- Understood why most React developers prefer JSX.
+- Applied correct JSX structure and its fundamental rules.
 
 ---
 
@@ -69,7 +94,7 @@ This repository documents my journey to master **React**, relying entirely on th
 
 ### 🟢 Beginner Level (The Foundation)
 
-**Progress: 31%** `███░░░░░░░`
+**Progress: 44%** `████░░░░░░`
 
 #### 1. Describing the UI
 
