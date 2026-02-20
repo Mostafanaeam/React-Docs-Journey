@@ -63,6 +63,13 @@
 - تخصيص المكونات ديناميكياً بناءً على القيم الممرة (نصوص، أرقام، كائنات).
 - حل التحديات الرسمية المتعلقة باستخراج المكونات وتحسين بنية الكود.
 
+#### ✅ [اليوم 7: التصيير الشرطي (Conditional Rendering)](./day7)
+
+- فهم كيفية استخدام جمل `if` الشرطية لإرجاع `null` أو JSX مختلف.
+- تطبيق المعامل الشرطي (Ternary Operator `? :`) للمنطق المضمن.
+- استخدام معامل `&&` المنطقي لعرض العناصر بناءً على شرط.
+- تنظيم الكود من خلال تخزين منطق التصيير الشرطي في متغيرات.
+
 ---
 
 ## 🇬🇧 English Section
@@ -116,13 +123,20 @@ This repository documents my journey to master **React**, relying entirely on th
 - Dynamically adjusted component logic and UI based on prop values.
 - Refactored code by extracting reusable child components.
 
+#### ✅ [Day 7: Conditional Rendering](./day7)
+
+- Learned how to use `if` statements to return different JSX or `null`.
+- Implemented the ternary operator (`? :`) for concise inline logic.
+- Used the logical AND operator (`&&`) for short-circuit rendering.
+- Practiced clean code by assigning conditional JSX to variables.
+
 ---
 
 ## 🗺️ Learning Roadmap & Progress | خريطة التعلم والتقدم
 
 ### 🟢 Beginner Level (The Foundation)
 
-**Progress: 44%** `████░░░░░░`
+**Progress: 66%** `██████░░░░`
 
 #### 1. Describing the UI
 
