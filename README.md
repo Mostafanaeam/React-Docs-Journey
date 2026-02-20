@@ -56,6 +56,13 @@
 - استخدام "الأقواس المتعرجة المزدوجة" لتمرير الكائنات (Objects) مثل التنسيقات (Inline Styles).
 - حل 3 تحديات رسمية: إصلاح أخطاء الصيغة، استخراج البيانات في كائنات، واستخدام التعبيرات الديناميكية.
 
+#### ✅ [اليوم 6: تمرير الـ Props إلى المكونات](./day6)
+
+- فهم كيفية تمرير البيانات من المكونات الأب إلى الأبناء عبر الـ Props.
+- استخدام خاصية `children` لتمرير محتوى JSX كـ Wrapper Components.
+- تخصيص المكونات ديناميكياً بناءً على القيم الممرة (نصوص، أرقام، كائنات).
+- حل التحديات الرسمية المتعلقة باستخراج المكونات وتحسين بنية الكود.
+
 ---
 
 ## 🇬🇧 English Section
@@ -102,6 +109,13 @@ This repository documents my journey to master **React**, relying entirely on th
 - Using "Double Curlies" to pass JavaScript objects (common for inline styles).
 - Solved 3 official challenges: fixing syntax errors, data extraction into objects, and applying dynamic expressions.
 
+#### ✅ [Day 6: Passing Props to a Component](./day6)
+
+- Learned the fundamental pattern of sending data from parent to child components.
+- Mastered the `children` prop for creating flexible wrapper components.
+- Dynamically adjusted component logic and UI based on prop values.
+- Refactored code by extracting reusable child components.
+
 ---
 
 ## 🗺️ Learning Roadmap & Progress | خريطة التعلم والتقدم
@@ -116,7 +130,7 @@ This repository documents my journey to master **React**, relying entirely on th
 - [x] Importing and Exporting Components
 - [x] Writing Markup with JSX
 - [x] JavaScript in JSX with Curly Braces
-- [ ] Passing Props to a Component
+- [x] Passing Props to a Component
 - [x] Conditional Rendering
 - [ ] Rendering Lists
 - [ ] Keeping Components Pure

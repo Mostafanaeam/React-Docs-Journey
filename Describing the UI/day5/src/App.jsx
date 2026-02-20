@@ -6,94 +6,163 @@ import TodoList4 from "./Challenge/ch3";
 const person = {
   name: "Gregorio Y. Zara",
   theme: {
-    backgroundColor: "black",
-    color: "pink",
+    backgroundColor: "var(--bg-secondary)",
+    color: "var(--text-main)",
+    padding: "1.5rem",
+    borderRadius: "16px",
+    borderLeft: "4px solid var(--accent-primary)",
+    boxShadow: "var(--card-shadow)",
   },
 };
 
 export function Avatar() {
   const avatar = "https://i.imgur.com/7vQD0fPs.jpg";
   const description = "Gregorio Y. Zara";
-  return <img className="avatar" src={avatar} alt={description} />;
+  return (
+    <div className="avatar-section">
+      <img
+        className="avatar"
+        src={avatar}
+        alt={description}
+        width={100}
+        height={100}
+      />
+      <p style={{ marginTop: "1rem", fontWeight: "600" }}>{description}</p>
+    </div>
+  );
 }
 
 export function TodoList() {
   const name = "Hedy Lamarr";
-  return <h1>{name}'s To Do List</h1>;
-}
-
-function App() {
   return (
-    <>
-      <h1>JavaScript in JSX with Curly Braces</h1>
-      <p>
-        JSX lets you write HTML-like markup inside a JavaScript file, keeping
-        rendering logic and content in the same place. Sometimes you will want
-        to add a little JavaScript logic or reference a dynamic property inside
-        that markup. In this situation, you can use curly braces in your JSX to
-        open a window to JavaScript.
-      </p>
-      <h2>Image src as a string </h2>
-      <img
-        className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
-      />
-      <hr />
-      <h2>variable</h2>
-      <Avatar />
-      <hr />
-      <TodoList />
-      <hr />
-      <ul
-        style={{
-          backgroundColor: "black",
-          color: "pink",
-        }}
-      >
+    <div className="todo-container">
+      <h1>{name}'s To Do List</h1>
+      <ul>
         <li>Improve the videophone</li>
         <li>Prepare aeronautics lectures</li>
         <li>Work on the alcohol-fuelled engine</li>
       </ul>
-      <h2>important notes</h2>
-
-      <p>
-        Inline style properties are written in camelCase. For example, HTML
-        background-color: black would be written as backgroundColor: "black" in
-        your component.
-      </p>
-      <hr />
-      <div style={person.theme}>
-        <h1>{person.name}'s Todos</h1>
-        <img
-          className="avatar"
-          src="https://i.imgur.com/7vQD0fPs.jpg"
-          alt="Gregorio Y. Zara"
-        />
-        <ul>
-          <li>Improve the videophone</li>
-          <li>Prepare aeronautics lectures</li>
-          <li>Work on the alcohol-fuelled engine</li>
-        </ul>
-      </div>
-      <hr />
-      <h2>Challenge 1 of 3: Fix the mistake </h2>
-      <TodoList2 />
-      <hr />
-      <h2>Challenge 2 of 3: Extract information into an object </h2>
-      <TodoList3 />
-      <hr />
-      <h2>Challenge 3 of 3: Write an expression inside JSX curly braces </h2>
-      <TodoList4 />
-    </>
+    </div>
   );
 }
 
-/*
-what is the diffrent between:
-      src="https://i.imgur.com/7vQD0fPs.jpg"
-and
-      src={avatar}
-*/
+function App() {
+  return (
+    <main className="container">
+      <header className="header">
+        <h1>JavaScript in JSX</h1>
+        <p>
+          JSX lets you write HTML-like markup inside a JavaScript file, keeping
+          rendering logic and content in the same place. Use curly braces{" "}
+          <code>{"{ }"}</code> to open a window to JavaScript logic or dynamic
+          properties.
+        </p>
+      </header>
+
+      <section className="section">
+        <h2>Basic Usage</h2>
+        <p>Referencing a variable or a string directly in JSX attributes.</p>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "2rem",
+            flexWrap: "wrap",
+            marginTop: "2rem",
+          }}
+        >
+          <div>
+            <p
+              style={{
+                fontSize: "0.8rem",
+                textAlign: "center",
+                marginBottom: "0.5rem",
+              }}
+            >
+              String Literal
+            </p>
+            <img
+              className="avatar"
+              src="https://i.imgur.com/7vQD0fPs.jpg"
+              alt="Gregorio Y. Zara"
+              width={100}
+              height={100}
+            />
+          </div>
+          <div>
+            <p
+              style={{
+                fontSize: "0.8rem",
+                textAlign: "center",
+                marginBottom: "0.5rem",
+              }}
+            >
+              Using Variables
+            </p>
+            <Avatar />
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <h2>Style Objects & "Double Curlies"</h2>
+        <p>
+          Inline style properties are written in camelCase. You pass a
+          JavaScript object using double braces:{" "}
+          <code>{"style={{ ... }}"}</code>.
+        </p>
+        <div style={person.theme}>
+          <h3 style={{ border: "none", padding: 0, fontSize: "1.5rem" }}>
+            {person.name}'s Profile
+          </h3>
+          <p>Managed via a theme object with CSS variables.</p>
+          <ul style={{ listStyle: "none", marginTop: "1rem" }}>
+            <li style={{ border: "none", padding: "4px 0" }}>
+              ✦ Built-in videophone
+            </li>
+            <li style={{ border: "none", padding: "4px 0" }}>
+              ✦ Alcohol-fuelled engine
+            </li>
+            <li style={{ border: "none", padding: "4px 0" }}>
+              ✦ Aeronautics research
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <span className="challenge-badge">Knowledge Check</span>
+        <h2>Challenge 1: Fix the Mistake</h2>
+        <p>Resolving syntax and logical errors in JSX implementation.</p>
+        <TodoList2 />
+      </section>
+
+      <section className="section">
+        <span className="challenge-badge">Knowledge Check</span>
+        <h2>Challenge 2: Data Extraction</h2>
+        <p>Refactoring hardcoded values into dynamic objects.</p>
+        <TodoList3 />
+      </section>
+
+      <section className="section">
+        <span className="challenge-badge">Knowledge Check</span>
+        <h2>Challenge 3: Inline Expressions</h2>
+        <p>Writing meaningful JavaScript expressions directly within markup.</p>
+        <TodoList4 />
+      </section>
+
+      <footer
+        style={{
+          textAlign: "center",
+          marginTop: "4rem",
+          color: "var(--text-dim)",
+          fontSize: "0.9rem",
+        }}
+      >
+        React Learning Journey — Day 5: Describing the UI
+      </footer>
+    </main>
+  );
+}
 
 export default App;
