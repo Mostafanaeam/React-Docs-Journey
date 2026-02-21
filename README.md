@@ -70,6 +70,13 @@
 - استخدام معامل `&&` المنطقي لعرض العناصر بناءً على شرط.
 - تنظيم الكود من خلال تخزين منطق التصيير الشرطي في متغيرات.
 
+#### ✅ [اليوم 8: تصيير القوائم (Rendering Lists)](./day8)
+
+- فهم كيفية التعامل مع مصفوفات البيانات وتحويلها إلى مكونات واجهة مستخدم.
+- استخدام دالتي `map()` و `filter()` لتوليد وتصفية القوائم ديناميكياً.
+- استيعاب أهمية الـ `key` الفريد لكل عنصر لضمان كفاءة تحديثات ريأكت.
+- حل التحديات البرمجية المتعلقة بفرز البيانات وتنظيم القوائم المتداخلة.
+
 ---
 
 ## 🇬🇧 English Section
@@ -130,13 +137,20 @@ This repository documents my journey to master **React**, relying entirely on th
 - Used the logical AND operator (`&&`) for short-circuit rendering.
 - Practiced clean code by assigning conditional JSX to variables.
 
+#### ✅ [Day 8: Rendering Lists](./day8)
+
+- Learned to transform data arrays into dynamic UI component collections.
+- Mastered `map()` and `filter()` array methods for list generation and data subsetting.
+- Understood the critical role of unique `keys` in React's reconciliation process.
+- Solved challenges focused on data sorting and nested list structures.
+
 ---
 
 ## 🗺️ Learning Roadmap & Progress | خريطة التعلم والتقدم
 
 ### 🟢 Beginner Level (The Foundation)
 
-**Progress: 66%** `██████░░░░`
+**Progress: 77%** `███████░░░`
 
 #### 1. Describing the UI
 
@@ -146,7 +160,7 @@ This repository documents my journey to master **React**, relying entirely on th
 - [x] JavaScript in JSX with Curly Braces
 - [x] Passing Props to a Component
 - [x] Conditional Rendering
-- [ ] Rendering Lists
+- [x] Rendering Lists
 - [ ] Keeping Components Pure
 - [ ] Your UI as a Tree
 
