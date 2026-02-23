@@ -17,7 +17,7 @@
 
 هذا المستودع يوثق رحلتي التعليمية لإتقان مكتبة **React** بالاعتماد الكامل على التوثيق الرسمي. يحتوي المشروع على مجلدات يومية، كل مجلد يمثل يوماً من التعلم وتطبيق مفاهيم محددة.
 
-### 📅 سجل الرحلة (Progress Log)
+### 📍 وصف الواجهة (Describing the UI)
 
 #### ✅ [اليوم 1: البداية والأساسيات](./Describing%20the%20UI/day1)
 
@@ -89,6 +89,22 @@
 - فهم شجرة تبعية الوحدات (Module Dependency Tree) وكيفية عمل أدوات البناء.
 - بناء مثال تفاعلي يوضح ديناميكية علاقة الأب والابن.
 
+#### 🏆 [المشروع الختامي: VoyageVibe - لوحة تحكم سياحية](./Describing%20the%20UI/VoyageVibe)
+
+- بناء تطبيق متكامل يجمع كل مفاهيم قسم **"Describing the UI"**.
+- هيكلة المكونات بشكل احترافي مع التركيز على تدفق البيانات عبر الـ Props.
+- تطبيق التصميم الحديث (Glassmorphism) واستخدام المكتبات الخارجية (Lucide, Framer Motion).
+- الالتزام بنقاء المكونات وعدم استخدام الـ State لتعميق فهم الأساسيات.
+
+### 📍 إضافة التفاعل (Adding Interactivity)
+
+#### [/] [اليوم 1: الاستجابة للأحداث (Responding to Events)](./Adding%20Interactivity/day1)
+
+- فهم كيفية معالجة تفاعلات المستخدم في ريأكت.
+- تعلم قواعد إضافة معالجات الأحداث (Event Handlers).
+- التمييز بين تمرير وظيفة معالجة الحدث ومناداتها.
+- استكشاف مفاهيم "انتشار الحدث" (Propagation) و "السلوك الافتراضي" (Prevent Default).
+
 ---
 
 ## 🇬🇧 English Section
@@ -97,7 +113,7 @@
 
 This repository documents my journey to master **React**, relying entirely on the official documentation. The project contains daily folders, each representing a day of learning and applying specific concepts.
 
-### 📅 Journey Log
+### 📍 Describing the UI
 
 #### ✅ [Day 1: Genesis & Basics](./Describing%20the%20UI/day1)
 
@@ -168,6 +184,22 @@ This repository documents my journey to master **React**, relying entirely on th
 - Explored parent-child relationships and their impact on performance and bundling.
 - Implemented interactive demos to showcase tree dynamics.
 
+#### 🏆 [Final Project: VoyageVibe - Travel Dashboard](./Describing%20the%20UI/VoyageVibe)
+
+- Built a comprehensive application consolidating all concepts from **"Describing the UI"**.
+- Professional component architecture prioritizing clean prop-drilling data flow.
+- Implemented modern UI (Glassmorphism) and integrated (Lucide, Framer Motion).
+- Maintained component purity and avoided state to master rendering fundamentals.
+
+### 📍 Adding Interactivity
+
+#### [/] [Day 1: Responding to Events](./Adding%20Interactivity/day1)
+
+- Learning how to handle user interactions in React.
+- Mastering the rules for adding Event Handlers.
+- Distinguishing between passing a function and calling it.
+- Exploring Event Propagation and Preventing Default behavior.
+
 ---
 
 ## 🗺️ Learning Roadmap & Progress | خريطة التعلم والتقدم
@@ -187,10 +219,11 @@ This repository documents my journey to master **React**, relying entirely on th
 - [x] Rendering Lists
 - [x] Keeping Components Pure
 - [x] Your UI as a Tree
+- [x] **🏆 Final Project: VoyageVibe Dashboard**
 
 #### 2. Adding Interactivity
 
-- [ ] Responding to Events
+- [ ] **[/] Responding to Events**
 - [ ] State: A Component's Memory
 - [ ] Render and Commit
 - [ ] State as a Snapshot
