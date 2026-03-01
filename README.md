@@ -98,12 +98,18 @@
 
 ### 📍 إضافة التفاعل (Adding Interactivity)
 
-#### [/] [اليوم 1: الاستجابة للأحداث (Responding to Events)](./Adding%20Interactivity/day1)
+#### ✅ [اليوم 1: الاستجابة للأحداث (Responding to Events)](./Adding%20Interactivity/day1)
 
 - فهم كيفية معالجة تفاعلات المستخدم في ريأكت.
 - تعلم قواعد إضافة معالجات الأحداث (Event Handlers).
 - التمييز بين تمرير وظيفة معالجة الحدث ومناداتها.
 - استكشاف مفاهيم "انتشار الحدث" (Propagation) و "السلوك الافتراضي" (Prevent Default).
+
+#### [/] [اليوم 2: ذاكرة المكون (State: A Component's Memory)](./Adding%20Interactivity/day2)
+
+- البدء في تعلم مفهوم الـ State وكيفية استخدامه لحفظ البيانات.
+- فهم الفرق بين المتغيرات العادية والـ State في ريأكت.
+- التعرف على هيكلية `useState` Hook.
 
 ---
 
@@ -193,12 +199,18 @@ This repository documents my journey to master **React**, relying entirely on th
 
 ### 📍 Adding Interactivity
 
-#### [/] [Day 1: Responding to Events](./Adding%20Interactivity/day1)
+#### ✅ [Day 1: Responding to Events](./Adding%20Interactivity/day1)
 
 - Learning how to handle user interactions in React.
 - Mastering the rules for adding Event Handlers.
 - Distinguishing between passing a function and calling it.
 - Exploring Event Propagation and Preventing Default behavior.
+
+#### [/] [Day 2: State: A Component's Memory](./Adding%20Interactivity/day2)
+
+- Introduction to State and its role in React components.
+- Understanding the difference between local variables and State.
+- Learning how to update components using `useState`.
 
 ---
 
@@ -206,7 +218,7 @@ This repository documents my journey to master **React**, relying entirely on th
 
 ### 🟢 Beginner Level (The Foundation)
 
-**Progress: 100%** `██████████`
+**Progress: 65%** `███████░░░`
 
 #### 1. Describing the UI
 
@@ -223,8 +235,10 @@ This repository documents my journey to master **React**, relying entirely on th
 
 #### 2. Adding Interactivity
 
-- [ ] **[/] Responding to Events**
-- [ ] State: A Component's Memory
+**Progress: 14%** `█░░░░░░░░░`
+
+- [x] Responding to Events
+- [ ] [/] State: A Component's Memory
 - [ ] Render and Commit
 - [ ] State as a Snapshot
 - [ ] Queueing a Series of State Updates
