@@ -105,11 +105,16 @@
 - التمييز بين تمرير وظيفة معالجة الحدث ومناداتها.
 - استكشاف مفاهيم "انتشار الحدث" (Propagation) و "السلوك الافتراضي" (Prevent Default).
 
-#### [/] [اليوم 2: ذاكرة المكون (State: A Component's Memory)](./Adding%20Interactivity/day2)
+#### ✅ [اليوم 2: ذاكرة المكون (State: A Component's Memory)](./Adding%20Interactivity/day2)
 
-- البدء في تعلم مفهوم الـ State وكيفية استخدامه لحفظ البيانات.
-- فهم الفرق بين المتغيرات العادية والـ State في ريأكت.
-- التعرف على هيكلية `useState` Hook.
+- فهم مفهوم State كذاكرة للمكون تحتفظ بالبيانات بين التصييرات.
+- التعرف على `useState` Hook وهيكلته: `const [state, setState] = useState(initialValue)`.
+- فهم الفرق بين المتغيرات العادية و State.
+- حل 4 تحديات رسمية:
+  - **التحدي 1:** إصلاح أعطال المعرض (إيقاف عند الصورة الأخيرة + إضافة Previous).
+  - **التحدي 2:** إصلاح حقول الإدخال المجمدة (استخدام State بدلاً من المتغيرات).
+  - **التحدي 3:** إصلاح انهيار React (خطأ في ترتيب Hooks).
+  - **التحدي 4:** إزالة State غير الضروري.
 
 ---
 
@@ -206,11 +211,16 @@ This repository documents my journey to master **React**, relying entirely on th
 - Distinguishing between passing a function and calling it.
 - Exploring Event Propagation and Preventing Default behavior.
 
-#### [/] [Day 2: State: A Component's Memory](./Adding%20Interactivity/day2)
+#### ✅ [Day 2: State: A Component's Memory](./Adding%20Interactivity/day2)
 
-- Introduction to State and its role in React components.
-- Understanding the difference between local variables and State.
-- Learning how to update components using `useState`.
+- Understanding State as component memory that persists data across renders.
+- Learning `useState` Hook anatomy: `const [state, setState] = useState(initialValue)`.
+- Understanding the difference between regular variables and State.
+- Solved 4 official challenges:
+  - **Challenge 1:** Fix gallery crashes (prevent crash on last image + add Previous).
+  - **Challenge 2:** Fix stuck form inputs (use State instead of variables).
+  - **Challenge 3:** Fix React crash (Hooks ordering error).
+  - **Challenge 4:** Remove unnecessary state variable.
 
 ---
 
@@ -218,7 +228,7 @@ This repository documents my journey to master **React**, relying entirely on th
 
 ### 🟢 Beginner Level (The Foundation)
 
-**Progress: 65%** `███████░░░`
+**Progress: 71%** `████████░░`
 
 #### 1. Describing the UI
 
@@ -235,10 +245,10 @@ This repository documents my journey to master **React**, relying entirely on th
 
 #### 2. Adding Interactivity
 
-**Progress: 14%** `█░░░░░░░░░`
+**Progress: 28%** `███░░░░░░░`
 
 - [x] Responding to Events
-- [ ] [/] State: A Component's Memory
+- [x] State: A Component's Memory
 - [ ] Render and Commit
 - [ ] State as a Snapshot
 - [ ] Queueing a Series of State Updates
