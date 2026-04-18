@@ -116,6 +116,13 @@
   - **التحدي 3:** إصلاح انهيار React (خطأ في ترتيب Hooks).
   - **التحدي 4:** إزالة State غير الضروري.
 
+#### [اليوم 3: Render and Commit](./Adding%20Interactivity/day3)
+
+- فهم المراحل الثلاث لعرض React: Trigger و Render و Commit.
+- الفرق بين العرض الأولي (Initial Render) وإعادة التصيير (Re-render).
+- فهم كيف يلمس React الـ DOM بأقل تغييرات ممكنة.
+- التمييز بين عملية التصيير والرسم (Browser Paint).
+
 ---
 
 ## 🇬🇧 English Section
@@ -222,6 +229,13 @@ This repository documents my journey to master **React**, relying entirely on th
   - **Challenge 3:** Fix React crash (Hooks ordering error).
   - **Challenge 4:** Remove unnecessary state variable.
 
+#### [Day 3: Render and Commit](./Adding%20Interactivity/day3)
+
+- Understanding the three phases of React rendering: Trigger, Render, and Commit.
+- Difference between Initial Render and Re-render.
+- Learning how React touches the DOM with minimal necessary changes.
+- Distinguishing rendering from browser painting.
+
 ---
 
 ## 🗺️ Learning Roadmap & Progress | خريطة التعلم والتقدم
@@ -245,11 +259,11 @@ This repository documents my journey to master **React**, relying entirely on th
 
 #### 2. Adding Interactivity
 
-**Progress: 28%** `███░░░░░░░`
+**Progress: 42%** `████░░░░░░`
 
 - [x] Responding to Events
 - [x] State: A Component's Memory
-- [ ] Render and Commit
+- [x] [/] Render and Commit
 - [ ] State as a Snapshot
 - [ ] Queueing a Series of State Updates
 - [ ] Updating Objects in State
