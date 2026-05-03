@@ -207,3 +207,134 @@ h3 {
   font-size: 1.4rem;
   margin: 1.5rem 0 0.75rem 0;
 }
+
+.intro-card {
+  border-top: 4px solid var(--accent-blue);
+}
+
+.intro-text {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.you-will-learn {
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.you-will-learn h3 {
+  margin: 0 0 0.75rem 0;
+  color: var(--accent-blue);
+}
+
+.steps-list {
+  counter-reset: step-counter;
+  list-style: none;
+  padding: 0;
+}
+
+.steps-list li {
+  counter-increment: step-counter;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(15, 23, 42, 0.4);
+  border-radius: 8px;
+}
+
+.steps-list li::before {
+  content: counter(step-counter) ". ";
+  font-weight: bold;
+  color: var(--accent-blue);
+}
+
+.steps-list strong {
+  color: var(--text-main);
+}
+
+.bold-highlight {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  padding: 0.5rem 1rem;
+  background: rgba(56, 189, 248, 0.1);
+  border-radius: 8px;
+}
+
+.demo-clock {
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border: 1px dashed var(--glass-border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.demo-clock h1 {
+  font-size: 2.5rem;
+  color: var(--accent-blue);
+  margin: 0;
+}
+
+.demo-clock input {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--glass-border);
+  background: rgba(30, 41, 59, 0.8);
+  color: var(--text-main);
+  font-size: 1rem;
+}
+
+.callout.pitfall {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.callout.pitfall h4 {
+  color: #f87171;
+  margin: 0 0 0.75rem 0;
+}
+
+.callout.deep-dive {
+  border-color: var(--accent-purple);
+  background: rgba(139, 92, 246, 0.1);
+}
+
+.callout.deep-dive h4 {
+  color: #a78bfa;
+  margin: 0 0 0.75rem 0;
+}
+
+.recap-card {
+  border-top: 4px solid var(--accent-purple);
+}
+
+[dir="rtl"] .card-glass {
+  text-align: right;
+}
+
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+[dir="rtl"] .lang-toggle {
+  right: auto;
+  left: 1.5rem;
+}
+
+[dir="rtl"] .callout {
+  border-left: none;
+  border-right: 4px solid;
+  border-radius: 12px 0 0 12px;
+}
+
+[dir="rtl"] .flow-arrow {
+  transform: scaleX(-1);
+}
