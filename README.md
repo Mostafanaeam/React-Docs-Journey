@@ -116,12 +116,26 @@
   - **التحدي 3:** إصلاح انهيار React (خطأ في ترتيب Hooks).
   - **التحدي 4:** إزالة State غير الضروري.
 
-#### [اليوم 3: Render and Commit](./Adding%20Interactivity/day3)
+#### ✅ [اليوم 3: Render and Commit](./Adding%20Interactivity/day3)
 
 - فهم المراحل الثلاث لعرض React: Trigger و Render و Commit.
 - الفرق بين العرض الأولي (Initial Render) وإعادة التصيير (Re-render).
 - فهم كيف يلمس React الـ DOM بأقل تغييرات ممكنة.
 - التمييز بين عملية التصيير والرسم (Browser Paint).
+
+#### ✅ [اليوم 4: State as a Snapshot](./Adding%20Interactivity/day4)
+
+- فهم كيف يعمل State كـ "لقطة" أو "صورة فوتوغرافية" بدلاً من متغير عادي.
+- سبب عدم تحديث State فوراً بعد استدعاء `setState`.
+- قيم State ثابتة داخل معالجات الحدث (Fixed within Handler).
+- فهم آلية المعالجة المتعددة (Batching).
+
+#### ✅ [اليوم 5: وضع سلسلة من تحديثات الحالة (Queueing a Series of State Updates)](./Adding%20Interactivity/day5)
+
+- فهم مفهوم "Batching" وكيف ينتظر React حتى انتهاء معالج الحدث قبل معالجة تحديثات الحالة.
+- استخدام الدوال المُحدِّثة (Updater Functions) مثل `setNumber(n => n + 1)` لتطبيق عدة تحديثات على نفس الحالة.
+- فهم ترتيب معالجة القائمة المختلطة بين القيم المباشرة والدوال المُحدِّثة.
+- حل تحديين رسميين: إصلاح عدّاد الطلبات، وتنفيذ قائمة الحالة يدوياً.
 
 ---
 
@@ -229,12 +243,26 @@ This repository documents my journey to master **React**, relying entirely on th
   - **Challenge 3:** Fix React crash (Hooks ordering error).
   - **Challenge 4:** Remove unnecessary state variable.
 
-#### [Day 3: Render and Commit](./Adding%20Interactivity/day3)
+#### ✅ [Day 3: Render and Commit](./Adding%20Interactivity/day3)
 
 - Understanding the three phases of React rendering: Trigger, Render, and Commit.
 - Difference between Initial Render and Re-render.
 - Learning how React touches the DOM with minimal necessary changes.
 - Distinguishing rendering from browser painting.
+
+#### ✅ [Day 4: State as a Snapshot](./Adding%20Interactivity/day4)
+
+- Understanding how state behaves like a "snapshot" or "photograph" rather than a regular variable.
+- Why state doesn't update immediately after calling `setState`.
+- State values are "fixed" inside event handlers.
+- Understanding batching behavior for multiple updates.
+
+#### ✅ [Day 5: Queueing a Series of State Updates](./Adding%20Interactivity/day5)
+
+- Understanding "batching" — React processes state updates only after the event handler finishes.
+- Using updater functions like `setNumber(n => n + 1)` to apply multiple updates to the same state.
+- Understanding how React processes a mixed queue of direct values and updater functions.
+- Solved 2 official challenges: fixing a request counter and implementing the state queue manually.
 
 ---
 
@@ -242,7 +270,7 @@ This repository documents my journey to master **React**, relying entirely on th
 
 ### 🟢 Beginner Level (The Foundation)
 
-**Progress: 71%** `████████░░`
+**Progress: 85%** `█████████░`
 
 #### 1. Describing the UI
 
@@ -259,13 +287,13 @@ This repository documents my journey to master **React**, relying entirely on th
 
 #### 2. Adding Interactivity
 
-**Progress: 42%** `████░░░░░░`
+**Progress: 86%** `████████░░`
 
 - [x] Responding to Events
 - [x] State: A Component's Memory
-- [x] [/] Render and Commit
-- [ ] State as a Snapshot
-- [ ] Queueing a Series of State Updates
+- [x] Render and Commit
+- [x] State as a Snapshot
+- [x] Queueing a Series of State Updates
 - [ ] Updating Objects in State
 - [ ] Updating Arrays in State
 
